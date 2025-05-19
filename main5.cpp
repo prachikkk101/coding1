@@ -16,7 +16,7 @@ vector<int> Largest(vector<int> arr){
             sec = x;
         }
         else if(x > thd && x  != fst){
-            thd = s;
+            thd = x;
         }
 
         vector<int> res = {};
